@@ -5,7 +5,7 @@ MY_AGENT = "agent-01"
 
 node(MY_AGENT){
     try {
-        git url: 'https://github.com/shahar5/python-flask-docker.git', branch: 'master'
+        git url: 'https://github.com/shahar5/python-flask-docker.git', branch: 'dev'
 
         NotifyStarted()
 
