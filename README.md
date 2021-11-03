@@ -1,10 +1,10 @@
 # Implementation of CI process including tests
 
-### prerequisites
-- Webhook configuration between GitHub and Jenkins
-
 ### Python app
 Basic Python Flask app in Docker which prints the hostname and IP of the container
+
+### prerequisites
+- Webhook configuration between GitHub and Jenkins
 
 ### CI Process
 1. Jenkins pull Jenkinsfile from this repo
